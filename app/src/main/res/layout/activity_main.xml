@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nivgoel.newsletter.MainActivity">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello World!"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<ImageView-->
+    <!--android:layout_width="200dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_marginTop="20dp"-->
+
+    <!--android:background="@drawable/title"-->
+    <!--/>-->
+    <!--</RelativeLayout>-->
+
+
+    <!--<EditText-->
+    <!--android:id="@+id/text1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:hint="User Name"-->
+    <!--android:gravity="center"-->
+    <!--android:textColorHint="#FF1E1E1E"-->
+    <!--android:textColor="#FF1E1E1E"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="@dimen/activity_horizontal_margin"-->
+    <!--/>-->
+    <!--<EditText-->
+    <!--android:id="@+id/text2"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:hint="Password"-->
+    <!--android:textColor="#FF1E1E1E"-->
+    <!--android:gravity="center"-->
+
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textColorHint="#FF1E1E1E"-->
+    <!--/>-->
+    <!--<Button-->
+    <!--android:id="@+id/button"-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="#FFCC8258"-->
+    <!--android:text="LOGIN"-->
+
+    <!--android:layout_margin="10dp"-->
+    <!--/>-->
+    <!--<RelativeLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:layout_gravity="center">-->
+    <!--<ImageView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/dog"-->
+    <!--android:layout_gravity="center"-->
+    <!--/>-->
+    <!--</RelativeLayout>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEWSLETTER"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        />
+</LinearLayout>

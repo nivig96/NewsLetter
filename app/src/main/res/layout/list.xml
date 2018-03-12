@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="7"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="4dp"
+        >
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="70dp"
+        android:layout_height="90dp"
+        />
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="7">
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/img"
+        android:textSize="17sp"
+        android:paddingRight="10dp"
+        android:textColor="#FF1E1E1E"
+        android:textStyle="bold"
+        android:text="HEading"
+        />
+
+    <TextView
+        android:id="@+id/cla"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/txt"
+        android:textColor="#FF1E1E1E"
+        android:layout_toRightOf="@+id/img"
+        android:text="Details">
+
+    </TextView>
+    </LinearLayout>
+
+</LinearLayout>
